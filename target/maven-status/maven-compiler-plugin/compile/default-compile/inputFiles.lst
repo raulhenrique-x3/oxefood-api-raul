@@ -1,0 +1,8 @@
+/home/raul/faculdade/oxefood-api-raul/src/main/java/br/com/ifpe/oxefood/OxefoodApiRaulApplication.java
+/home/raul/faculdade/oxefood-api-raul/src/main/java/br/com/ifpe/oxefood/api/cliente/ClienteController.java
+/home/raul/faculdade/oxefood-api-raul/src/main/java/br/com/ifpe/oxefood/api/cliente/ClienteRequest.java
+/home/raul/faculdade/oxefood-api-raul/src/main/java/br/com/ifpe/oxefood/modelo/cliente/Cliente.java
+/home/raul/faculdade/oxefood-api-raul/src/main/java/br/com/ifpe/oxefood/modelo/cliente/ClienteRepository.java
+/home/raul/faculdade/oxefood-api-raul/src/main/java/br/com/ifpe/oxefood/modelo/cliente/ClienteService.java
+/home/raul/faculdade/oxefood-api-raul/src/main/java/br/com/ifpe/oxefood/util/entity/EntidadeAuditavel.java
+/home/raul/faculdade/oxefood-api-raul/src/main/java/br/com/ifpe/oxefood/util/entity/EntidadeNegocio.java
