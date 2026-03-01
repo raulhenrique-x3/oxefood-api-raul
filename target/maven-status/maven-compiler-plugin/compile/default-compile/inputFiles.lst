@@ -1,11 +1,16 @@
 /home/raulh/faculdade/web-iv/oxefood/oxefood-api-raul/src/main/java/br/com/ifpe/oxefood/OxefoodApiRaulApplication.java
 /home/raulh/faculdade/web-iv/oxefood/oxefood-api-raul/src/main/java/br/com/ifpe/oxefood/api/cliente/ClienteController.java
 /home/raulh/faculdade/web-iv/oxefood/oxefood-api-raul/src/main/java/br/com/ifpe/oxefood/api/cliente/ClienteRequest.java
+/home/raulh/faculdade/web-iv/oxefood/oxefood-api-raul/src/main/java/br/com/ifpe/oxefood/api/entregador/EntregadorController.java
+/home/raulh/faculdade/web-iv/oxefood/oxefood-api-raul/src/main/java/br/com/ifpe/oxefood/api/entregador/EntregadorRequest.java
 /home/raulh/faculdade/web-iv/oxefood/oxefood-api-raul/src/main/java/br/com/ifpe/oxefood/api/produto/ProdutoController.java
 /home/raulh/faculdade/web-iv/oxefood/oxefood-api-raul/src/main/java/br/com/ifpe/oxefood/api/produto/ProdutoRequest.java
 /home/raulh/faculdade/web-iv/oxefood/oxefood-api-raul/src/main/java/br/com/ifpe/oxefood/modelo/cliente/Cliente.java
 /home/raulh/faculdade/web-iv/oxefood/oxefood-api-raul/src/main/java/br/com/ifpe/oxefood/modelo/cliente/ClienteRepository.java
 /home/raulh/faculdade/web-iv/oxefood/oxefood-api-raul/src/main/java/br/com/ifpe/oxefood/modelo/cliente/ClienteService.java
+/home/raulh/faculdade/web-iv/oxefood/oxefood-api-raul/src/main/java/br/com/ifpe/oxefood/modelo/entregador/Entregador.java
+/home/raulh/faculdade/web-iv/oxefood/oxefood-api-raul/src/main/java/br/com/ifpe/oxefood/modelo/entregador/EntregadorRepository.java
+/home/raulh/faculdade/web-iv/oxefood/oxefood-api-raul/src/main/java/br/com/ifpe/oxefood/modelo/entregador/EntregadorService.java
 /home/raulh/faculdade/web-iv/oxefood/oxefood-api-raul/src/main/java/br/com/ifpe/oxefood/modelo/produto/Produto.java
 /home/raulh/faculdade/web-iv/oxefood/oxefood-api-raul/src/main/java/br/com/ifpe/oxefood/modelo/produto/ProdutoRepository.java
 /home/raulh/faculdade/web-iv/oxefood/oxefood-api-raul/src/main/java/br/com/ifpe/oxefood/modelo/produto/ProdutoService.java
