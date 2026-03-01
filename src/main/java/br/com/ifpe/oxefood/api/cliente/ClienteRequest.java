@@ -5,6 +5,7 @@ import java.time.LocalDate;
 import com.fasterxml.jackson.annotation.JsonFormat;
 
 import br.com.ifpe.oxefood.modelo.cliente.Cliente;
+
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -15,7 +16,6 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class ClienteRequest {
-
     private String nome;
 
     @JsonFormat(pattern = "dd/MM/yyyy")
@@ -37,5 +37,4 @@ public class ClienteRequest {
                 .foneFixo(foneFixo)
                 .build();
     }
-
 }
