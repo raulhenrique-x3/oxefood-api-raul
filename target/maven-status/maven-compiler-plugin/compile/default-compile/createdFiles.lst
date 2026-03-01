@@ -1,0 +1,10 @@
+br/com/ifpe/oxefood/modelo/cliente/Cliente$ClienteBuilder.class
+br/com/ifpe/oxefood/modelo/cliente/Cliente.class
+br/com/ifpe/oxefood/modelo/cliente/ClienteService.class
+br/com/ifpe/oxefood/util/entity/EntidadeAuditavel.class
+br/com/ifpe/oxefood/modelo/cliente/ClienteRepository.class
+br/com/ifpe/oxefood/api/cliente/ClienteRequest.class
+br/com/ifpe/oxefood/OxefoodApiRaulApplication.class
+br/com/ifpe/oxefood/util/entity/EntidadeNegocio.class
+br/com/ifpe/oxefood/api/cliente/ClienteRequest$ClienteRequestBuilder.class
+br/com/ifpe/oxefood/api/cliente/ClienteController.class
