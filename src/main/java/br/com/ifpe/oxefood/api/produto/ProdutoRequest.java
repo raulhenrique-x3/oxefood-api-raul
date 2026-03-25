@@ -14,6 +14,8 @@ import br.com.ifpe.oxefood.modelo.produto.Produto;
 @NoArgsConstructor
 @AllArgsConstructor
 public class ProdutoRequest {
+    private Long idCategoria;
+
     private String codigo;
 
     private String titulo;
