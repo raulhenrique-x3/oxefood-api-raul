@@ -9,34 +9,43 @@ import java.util.List;
 @Service
 public class EntregadorService {
 
-        @Autowired
-        private EntregadorRepository repository;
-
-        @Transactional
-        public Entregador save(Entregador entregador) {
-            entregador.setHabilitado(Boolean.TRUE);
-            return repository.save(entregador);
-        }
-
-        public List<Entregador> listarTodos() {
-            return repository.findAll();
-        }
-
-        public Entregador obterPorID(Long id) {
-            return repository.findById(id).get();
-        }
+    @Autowired
+    private EntregadorRepository repository;
 
     @Transactional
-public void update(Long id, Produto produtoAlterado) {
+    public Entregador save(Entregador entregador) {
+        entregador.setHabilitado(Boolean.TRUE);
+        return repository.save(entregador);
+    }
 
-    Produto produto = repository.findById(id).get();
-    produto.setCodigo(produtoAlterado.getCodigo());
-    produto.setTitulo(produtoAlterado.getTitulo());
-    produto.setDescricao(produtoAlterado.getDescricao());
-    produto.setValorUnitario(produtoAlterado.getValorUnitario());
-    produto.setTempoEntregaMinimo(produtoAlterado.getTempoEntregaMinimo());
-    produto.setTempoEntregaMaximo(produtoAlterado.getTempoEntregaMaximo());
+    public List<Entregador> listarTodos() {
+        return repository.findAll();
+    }
 
-    repository.save(produto);
-}
+    public Entregador obterPorID(Long id) {
+        return repository.findById(id).get();
+    }
+
+    @Transactional
+    public void update(Long id, Entregador entregadorAlterado) {
+
+        Entregador entregador = repository.findById(id).get();
+        entregador.setNome(entregadorAlterado.getNome());
+        entregador.setDataNascimento(entregadorAlterado.getDataNascimento());
+        entregador.setCpf(entregadorAlterado.getCpf());
+        entregador.setFoneCelular(entregadorAlterado.getFoneCelular());
+        entregador.setFoneFixo(entregadorAlterado.getFoneFixo());
+
+        repository.save(entregador);
+    }
+
+    @Transactional
+    public void delete(Long id) {
+
+        Entregador entregador = repository.findById(id).get();
+        entregador.setHabilitado(Boolean.FALSE);
+
+        repository.save(entregador);
+    }
+
 }
